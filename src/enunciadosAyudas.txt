@@ -1,0 +1,26 @@
+primer commit
+Despues de clonar
+git remote remove origin
+git remote add origin http://github..
+git add .
+git commit -m "primer cambio"
+git push origin master o en cambio
+git push --set-upstream origin main
+Cuando quieras hacer un pull request, puedes usar:
+git fetch upstream
+git rebase master
+Si hay conflictos, resuelvelos y luego usa git add para agregar los archivos solucionados. Luego usa
+git rebase --continue
+Para crear una rama desde el mail hace:
+git checkout -b nombre_de_la_rama
+Luego haces lo que necesites en esa rama. Cuando estés listo para fusionar a la rama principal, usa:
+git checkout master
+git merge nombre_de_la_rama
+Una vez que se haya fusionado, puedes borrar la rama con:
+git branch -d nombre_de_la_rama
+O si quieres mantenerla como referencia:
+git branch -d -r nombre_de_la_rama</s> </s>
+#include <stdio.h>
+ir a la rama principal:
+bash
+$ git checkout master

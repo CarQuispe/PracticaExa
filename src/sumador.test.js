@@ -5,3 +5,8 @@ describe("Sumar", () => {
     expect(sumar(3, 2)).toEqual(5);
   });
 });
+describe("multiplicar", ()=>{
+  it ("deberia multiplicar dos numeros",()=>{
+    expect(sumar.multiplicar(4,6)) .toBe(24);
+  });
+});
