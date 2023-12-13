@@ -24,3 +24,11 @@ git branch -d -r nombre_de_la_rama</s> </s>
 ir a la rama principal:
 bash
 $ git checkout master
+hacer push de la rama:
+bash
+hacer merge a la rama principal:
+$ git push origin master
+ver todas las ramas:
+$ git branch -av
+
+
